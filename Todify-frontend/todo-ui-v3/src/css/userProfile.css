@@ -1,0 +1,223 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    min-height: 100vh;
+    background: #f4f6f9;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.profile-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: block;
+    object-fit: cover;
+    border: 3px solid #00adb5;
+}
+
+.profile-card h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    color: #33465a;
+}
+
+.profile-card p {
+    margin: 0.4rem 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.profile-card input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.profile-actions button {
+    flex: 1;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #00adb5;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.profile-actions button:hover {
+    background-color: #007e89;
+}
+
+@media (max-width: 600px) {
+    .profile-card {
+        padding: 1.5rem;
+    }
+
+    .profile-actions {
+        flex-direction: column;
+    }
+}
+
+.reset-password-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .toggle-password-btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #007e89;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-password-btn:hover {
+    background-color: #005f63;
+  }
+  
+  .password-form {
+    margin-top: 1.2rem;
+    text-align: left;
+  }
+  
+  .password-label {
+    font-weight: 600;
+    color: #33465a;
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  /* Overlay covers entire screen with blur and dim */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  /* Modal box centered and elegant */
+  .modal-content {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+    animation: popupZoom 0.3s ease-out;
+    z-index: 10000;
+    position: relative;
+  }
+  
+  @keyframes popupZoom {
+    from {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .modal-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #33465a;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Input and button enhancements inside popup */
+  .password-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .modal-buttons button {
+    flex: 1;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #00adb5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-buttons button:hover {
+    background-color: #007e89;
+  }
+  
+  .cancel-btn {
+    background-color: #888;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #555;
+  }
+  

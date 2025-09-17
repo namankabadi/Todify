@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* Ensure the page fills at least the height of the screen */
+}
+
+.content-wrap {
+  flex: 1;  /* Allow content to take remaining space */
+}
+
+footer {
+  margin-top: auto;  /* Push footer to the bottom of the page */
+}

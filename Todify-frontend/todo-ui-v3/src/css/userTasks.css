@@ -1,0 +1,84 @@
+.assign-task-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+}
+.error {
+    color: #d32f2f;
+    font-size: 0.85rem;
+    margin-top: -8px;
+    margin-bottom: 10px;
+  }
+  
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.task-form label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #222d2d;
+}
+
+.task-form input,
+.task-form select,
+.task-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-form input:focus,
+.task-form select:focus,
+.task-form textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.btn-submit {
+    background-color: #222d2d;
+    border: 2px solid #2d5072;
+    color: #f9f9f9;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #1a2525;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .assign-task-container {
+        padding: 1.5rem;
+    }
+
+    .task-form input,
+    .task-form select,
+    .task-form textarea {
+        font-size: 0.95rem;
+    }
+
+    .btn-submit {
+        font-size: 0.95rem;
+    }
+}

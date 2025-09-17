@@ -1,0 +1,23 @@
+.switch-line {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  .switch-line .link-btn {
+    background: none;
+    border: none;
+    color: #00adb5;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0;
+    margin-left: 4px;
+    transition: color 0.2s, text-decoration 0.2s;
+  }
+  
+  .switch-line .link-btn:hover {
+    color: #007e89;
+    text-decoration: underline;
+  }
+  

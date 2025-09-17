@@ -1,0 +1,51 @@
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #00adb5;
+    transform: scale(1.05);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .active-link {
+    border-bottom: 2px solid #00adb5;
+  }
+  
+  .profile-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #00adb5;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .profile-icon-sm {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #00adb5;
+  }
+
+  .nav-button{
+    background-color: #282c34;
+    border-radius: 5%;
+    color: aliceblue;
+    border: none;
+  }
+
+  

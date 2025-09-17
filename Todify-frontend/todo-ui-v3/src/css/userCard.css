@@ -1,0 +1,117 @@
+/* src/css/userCard.css */
+
+.user-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.profile-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.user-info {
+    flex: 1;
+}
+
+.user-info h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-info p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.user-info p strong {
+    color: #000;
+}
+
+.user-actions {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.user-actions button {
+    background-color: #00adb5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.user-actions button:hover {
+    background-color: #00fff5;
+    transform: translateY(-2px);
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+}
+
+.delete-button:hover {
+    background-color: #ff6666;
+}
+
+.add-task-button {
+    background-color: #00adb5;
+}
+
+.add-task-button:hover {
+    background-color: #00fff5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .user-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px;
+    }
+    .profile-icon {
+        margin-right: 0;
+        margin-bottom: 12px;
+        width: 60px;
+        height: 60px;
+    }
+    .user-info h2 {
+        font-size: 20px;
+    }
+    .user-info p {
+        font-size: 14px;
+    }
+    .user-actions {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .user-actions button {
+        flex: 1 1 auto;
+        width: calc(50% - 8px);
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .user-actions button {
+        width: 100%;
+    }
+}
