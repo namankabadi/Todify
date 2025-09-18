@@ -27,18 +27,18 @@ Todify ensures **secure, efficient, and scalable task management** for teams of 
 ## 🖼️ Application Snapshots  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/namankabadi/Todify-Images/main/login.png" alt="Login Page" width="300"/>
-  <img src="https://raw.githubusercontent.com/namankabadi/Todify-Images/main/register.png" alt="Register Page" width="300"/>
+ Todify-Images/login.png
+  <img src="https://github.com/namankabadi/Todify-Images/main/register.png" alt="Register Page" width="300"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/namankabadi/Todify-Images/main/todo_home.png" alt="ToDo Home" width="300"/>
-  <img src="https://raw.githubusercontent.com/namankabadi/Todify-Images/main/user_login_tasks.png" alt="User Tasks" width="300"/>
+  <img src="https://raw.github.com/namankabadi/Todify-Images/main/todo_home.png" alt="ToDo Home" width="300"/>
+  <img src="https://raw.github.com/namankabadi/Todify-Images/main/user_login_tasks.png" alt="User Tasks" width="300"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/namankabadi/Todify-Images/main/All_tasks_admin.png" alt="Admin All Tasks" width="300"/>
-  <img src="https://raw.githubusercontent.com/namankabadi/Todify-Images/main/all_users.png" alt="All Users" width="300"/>
+  <img src="https://raw.github.com/namankabadi/Todify-Images/main/All_tasks_admin.png" alt="Admin All Tasks" width="300"/>
+  <img src="https://raw.github.com/namankabadi/Todify-Images/main/all_users.png" alt="All Users" width="300"/>
 </p>
 
 <p align="center">
