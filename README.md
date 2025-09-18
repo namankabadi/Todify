@@ -28,7 +28,7 @@ Todify ensures **secure, efficient, and scalable task management** for teams of 
 
 <p align="center">
  Todify-Images/login.png
-  <img src="https://github.com/namankabadi/Todify-Images/main/register.png" alt="Register Page" width="300"/>
+  <img src="https://github.com/namankabadi/Todify-Images/register.png" alt="Register Page" width="300"/>
 </p>
 
 <p align="center">
